@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=200">
+<style>
+
+div {
+  background-image: url('https://i1.wp.com/purpletoadsocialtap.com/wp-content/uploads/2017/08/hd-celebration-background-30.jpeg');
+  background-repeat: no-repeat;
+    background-attachment: fixed; 
+  background-size: cover;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+
+input[type=text], input[type=password] {
+    width: 25%;  
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid orange;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: 10%;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.download {
+    width: 20%;
+    border-radius: 20%;
+}
+
+.container {
+    padding: 16px ;
+}
+    
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #rgba(136, 107, 214, 0.84);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+</style>
+</head>
+    
+
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="https://i.pinimg.com/originals/8b/c9/f8/8bc9f8f1625efab4a751ebd5b28fb402.png">
+  </div>
+
+<div class="wrapper" align="center">
+            <form class="form1" action="http://google.com"><br/>
+               
+         <div class="imgcontainer">
+    <img src="C:\Users\Hareeharan\Desktop\HTML\coollogo_com-2209422.png" width="250" height="70">
+  </div>
+             
+                        <input type="text" id="username" name="username" /><br />
+                 
+                </div>
+
+
+                    <div class="inputtext" align="center"><br/>
+           <div class="imgcontainer">
+    <img src="C:\Users\Hareeharan\Desktop\HTML\coollogo_com-2665284.png" width="250" height="70">
+  </div>
+                
+                        <input type="password" id="password" name="password"/><br />
+                </div>
+
+                <div button class="button"  align="center">
+                    <button class="button" type="button" value="Login" onclick="checkPassword()" /><span>--GET-IN-- </span></button>
+                </div>
+            </form>
+        </div>
+
+
+        
+
+
+</body>
+
+<script type="text/javascript">
+
+      function checkPassword(){
+       if(document.getElementById('password').value == 'CONSTANT'){
+        alert('Correct Password!'); 
+          location.href ="https://drive.google.com/file/d/1TtUSMDCkI7k-tm5OUt5ctQ2p7U7rnp79/view";
+         } else {
+         alert('Wrong Password!');
+          return false;
+        }
+       }
+
+ </script>   
+
+</html>  
